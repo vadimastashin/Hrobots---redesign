@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Главная - UiKit</title>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		  
+        <link rel="stylesheet" href="css/uikit.min.css" />
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+		
+		
+    </head>
+    <body>
+        <nav class="uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-left uk-background-default">
+                <a href="./" class="uk-navbar-item uk-logo">Hobot</a>
+            </div>
+            <div class="uk-navbar-center uk-background-default">
+                Москва
+            </div>
+            <div class="uk-navbar-right uk-background-default">
+                
+            </nav>
+            <div>
+            <nav class="uk-navbar-container main-menu" uk-navbar>
+                <div class="uk-navbar-left uk-width-3-4 uk-background-primary">
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="">Каталог</a></li>
+                        <li class="uk-parent"><a href="">Информация</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Инструкции</a></li>
+                                    <li><a href="#">Сертификаты</a></li>
+                                    <li><a href="#">Сравнение моделей</a></li>
+                                    <li><a href="#">О роботах</a></li>
+                                    <li><a href="#">Доставка</a></li>
+                                    <li><a href="#">Оплата</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right uk-width-1-4 uk-background-primary">
+                    <form class="uk-search" action="javascript:void(0)" >
+                        <input class="uk-input uk-form-width-medium" type="search" placeholder="Поиск">
+                    </form>
+                    <a class="uk-navbar-item uk-link-muted tm-navbar-button" href="cart.html" uk-toggle="target: #cart-offcanvas" onclick="return false">
+                        <span uk-icon="cart" class="cart-icon"></span></a>
+                            <div id="cart-offcanvas" uk-offcanvas="flip: true; overlay: true">
+                                <div class="uk-offcanvas-bar">
+                                    <button class="uk-offcanvas-close" type="button" uk-close></button>
+                                        <h3>Ваша корзина</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                            </div>     
+                        </div>
+                </div>
+            </nav>
+        <div class="uk-section">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
+
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="images/photo.jpg" alt="" uk-cover>
+                        <div class="uk-position-center uk-position-small uk-text-center">
+                            <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
+                            <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/dark.jpg" alt="" uk-cover>
+                        <div class="uk-position-center uk-position-small uk-text-center">
+                            <h2 uk-slideshow-parallax="x: 100,-100">Heading</h2>
+                            <p uk-slideshow-parallax="x: 200,-200">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/light.jpg" alt="" uk-cover>
+                        <div class="uk-position-center uk-position-small uk-text-center">
+                            <h2 uk-slideshow-parallax="y: -50,0,0; opacity: 1,1,0">Heading</h2>
+                            <p uk-slideshow-parallax="y: 50,0,0; opacity: 1,1,0">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </li>
+                </ul>
+            
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+            
+            </div>
+            
+        </div>
+        <div class="uk-section">
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default uk-card-body">Item</div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+
+
+
+        </footer>
+
+    </body>
+    
+</html>
