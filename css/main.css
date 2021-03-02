@@ -13,12 +13,19 @@ body {
 	max-width: 100%;
 }
 
+.uk-navbar-container.upper {
+	background-color: #FFF;
+}
 
-.main-menu .uk-navbar-nav li a {
+.uk-navbar-container.main {
+	background-color: #1E87F0;
+}
+
+.main .uk-navbar-nav li a {
 	color: #fff;
 }
 
-.main-menu .tm-navbar-button .cart-icon {
+.main .tm-navbar-button .cart-icon {
 	color: #fff;
 }
 
