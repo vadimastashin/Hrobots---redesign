@@ -62,3 +62,11 @@ body {
 	color: #fff;
 	padding: 190px 0;
 }
+
+.uk-section.footer-block {
+	background-color:rgba(0, 0, 0, 0.7);
+} 
+
+.uk-section.footer-block h4, .uk-section.footer-block p,  .uk-section.footer-block li, .uk-section.footer-block a  {
+	color: #FFF;
+}
